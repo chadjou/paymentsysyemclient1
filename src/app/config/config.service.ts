@@ -6,7 +6,7 @@ import { HttpClient } from "@angular/common/http";
 })
 export class ConfigService {
   constructor(private http: HttpClient) {}
-  configUrl = "https://localhost:44353/api/values";
+  configUrl = "https://localhost:44358/api/sellers";
 
   getConfig() {
     return this.http.get(this.configUrl);
